@@ -84,6 +84,7 @@ img {
 
 
 .nav-items {
+    position: relative;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -95,7 +96,7 @@ img {
 .nav-title:focus {
     color: #404bbf;
 }
-nav-title::after {
+.nav-items::after {
     content: " ";
     position: absolute;
     width: 100%;
