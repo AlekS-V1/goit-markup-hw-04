@@ -83,10 +83,11 @@ img {
 .nav-title::after {
     content: "";
     position: absolute;
-    width: 0;
-    height: 2px;
+    width: 100%;
+    height: 4px;
     background-color: #404bbf;
-    bottom: 0;
+    border-radius: 2px;
+    bottom: -1px;
     left: 0;
     transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -109,7 +110,7 @@ img {
 .nav-title:focus {
     color: #404bbf;
 }
-.nav-items::after {
+/* .nav-items::after {
     content: " ";
     position: absolute;
     width: 100%;
@@ -119,7 +120,7 @@ img {
     left: 0;
     border-radius: 2px;
     transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Section Address */
 
